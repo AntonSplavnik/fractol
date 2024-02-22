@@ -1,5 +1,6 @@
 NAME	:= Game
 CFLAGS	:= -Wextra -Wall -Werror -Wunreachable-code -Ofast
+#CFLAGS	+= -framework Cocoa -framework OpenGL -framework IOKit	#MacOS
 LIBMLX	:= ./MLX42
 
 HEADERS	:= -I ./include -I $(LIBMLX)/include
